@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LinkView", "LinkView\", "{2D4B8AA0-E8DE-4541-BE90-6854818726D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}|MMSMessaging.dll;{8c40a23c-d106-4b29-9a2d-5682ba01181a}|EncoderLibraries.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/LinkView"
+		Debug.AspNetCompiler.PhysicalPath = "LinkView\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\LinkView\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/LinkView"
+		Release.AspNetCompiler.PhysicalPath = "LinkView\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\LinkView\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49997"
+		SlnRelativePath = "LinkView\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncoderLibraries", "LinkViewControl\Encoder\EncoderLibraries.csproj", "{8C40A23C-D106-4B29-9A2D-5682BA01181A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMSMessaging", "LinkViewControl\MMSMessages\MMSMessaging.csproj", "{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkViewAPI", "LinkViewAPI\LinkViewAPI.csproj", "{F3A4F909-081B-4AD7-923A-5FBF27B678E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D4B8AA0-E8DE-4541-BE90-6854818726D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4B8AA0-E8DE-4541-BE90-6854818726D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4B8AA0-E8DE-4541-BE90-6854818726D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4B8AA0-E8DE-4541-BE90-6854818726D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8C40A23C-D106-4B29-9A2D-5682BA01181A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C40A23C-D106-4B29-9A2D-5682BA01181A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C40A23C-D106-4B29-9A2D-5682BA01181A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C40A23C-D106-4B29-9A2D-5682BA01181A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514C56F6-B25A-490B-A88D-A4ADFFBC98EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A4F909-081B-4AD7-923A-5FBF27B678E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A4F909-081B-4AD7-923A-5FBF27B678E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A4F909-081B-4AD7-923A-5FBF27B678E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A4F909-081B-4AD7-923A-5FBF27B678E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C103B321-68A0-45AB-B748-516A44DF0217}
+	EndGlobalSection
+EndGlobal
