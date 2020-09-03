@@ -13,6 +13,7 @@ LinkView allows users to add or import business contacts from Outlook. LinkView 
 ## Quick Start
 To help contribute to our enterprise mini video compression application, LinkView ,begin by downloading:
 - Visual Studio 2019
+- SQL Express 2017 
 - Microsoft SQL Server Management Studio 
 - FFMPEG for video compression (.exe included in repo, set the location path in web.config)
 
